@@ -1,2 +1,2 @@
-Fucking hell!
-
+#!/bin/bash
+$ wc -l file

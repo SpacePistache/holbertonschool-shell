@@ -1,2 +1,2 @@
 #!/bin/bash
-readarray -t words printf "%s\n" "${words[@]}" | sort | uniq -u
+cat list_1 | sort --ignore-case | uniq -u

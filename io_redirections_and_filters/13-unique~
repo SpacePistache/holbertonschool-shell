@@ -1,2 +1,0 @@
-#!/bin/bash
-read -a | ls -1t | wc

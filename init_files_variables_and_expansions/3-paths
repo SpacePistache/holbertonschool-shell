@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr : $ | grep / | wc -l
+echo 'echo "$(echo $PATH | tr ":" "\n" | wc -l)"' > count_dirs.sh

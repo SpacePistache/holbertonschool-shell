@@ -1,0 +1,2 @@
+#!/bin/bash
+read -a array | ls -1t | wc
